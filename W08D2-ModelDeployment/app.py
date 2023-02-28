@@ -20,7 +20,7 @@ with open('model_columns.pkl', 'rb') as f:
 
 @app.route('/')
 def welcome():
-   return "Welcome! Use this Flask App for Boston Housing Price Prediction"
+   return "Welcome LHL Muggles ! Use this Flask App for predicitng Boston Housing Price"
 
 @app.route('/predict', methods=['POST','GET'])
 def predict():
